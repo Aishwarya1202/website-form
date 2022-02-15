@@ -43,3 +43,40 @@ Use these steps to clone from SourceTree, our client for using the repository co
 4. Open the directory you just created to see your repository’s files.
 
 Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+
+## Pages
+
+We have implemented some basic pages.
+
+- Dashboard
+- Typography
+- Tables
+- Notifications
+- Charts
+- Icons
+- Maps
+- Login
+- Error
+
+#### Run `yarn install`
+
+This will install both run-time project dependencies and developer tools listed
+in [package.json](package.json) file.
+
+#### Run `yarn start`
+
+Runs the app in the development mode.
+
+Open http://localhost:3000 to view it in the browser. Whenever you modify any of the source files inside the `/src` folder,
+the module bundler ([Webpack](http://webpack.github.io/)) will recompile the
+app on the fly and refresh all the connected browsers.
+
+#### Run `yarn build`
+
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
+
+
